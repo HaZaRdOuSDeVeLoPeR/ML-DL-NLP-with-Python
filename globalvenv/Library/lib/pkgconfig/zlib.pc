@@ -1,8 +1,8 @@
-prefix=E:/Coding_23CSB0B30/Coding_23CSB0B30/ML, DL, NLP with Python/globalvenv/Library
-exec_prefix=E:/Coding_23CSB0B30/Coding_23CSB0B30/ML, DL, NLP with Python/globalvenv/Library
-libdir=E:/Coding_23CSB0B30/Coding_23CSB0B30/ML, DL, NLP with Python/globalvenv/Library/lib
-sharedlibdir=E:/Coding_23CSB0B30/Coding_23CSB0B30/ML, DL, NLP with Python/globalvenv/Library/lib
-includedir=E:/Coding_23CSB0B30/Coding_23CSB0B30/ML, DL, NLP with Python/globalvenv/Library/include
+prefix=E:/Coding_23CSB0B30/ML, DL, NLP with Python/globalvenv/Library
+exec_prefix=E:/Coding_23CSB0B30/ML, DL, NLP with Python/globalvenv/Library
+libdir=E:/Coding_23CSB0B30/ML, DL, NLP with Python/globalvenv/Library/lib
+sharedlibdir=E:/Coding_23CSB0B30/ML, DL, NLP with Python/globalvenv/Library/lib
+includedir=E:/Coding_23CSB0B30/ML, DL, NLP with Python/globalvenv/Library/include
 
 Name: zlib
 Description: zlib compression library

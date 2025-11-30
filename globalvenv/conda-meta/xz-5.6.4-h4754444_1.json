@@ -251,7 +251,7 @@
         "path_type": "hardlink",
         "sha256": "dbe3494f7db3697dfd6167eb9f44b211b58df9613a8f6b2670a1d6ba78f0593b",
         "size_in_bytes": 426,
-        "sha256_in_prefix": "08a7f1fe21d3f10990c2d4db638ae1a2e6a1e0cc874475c639628be3a6ba47ba"
+        "sha256_in_prefix": "c205042bd4bc37d0e749ccd54e985a69a68987b3d5b3ded7fd50caa0d5fb5332"
       },
       {
         "_path": "Library/share/doc/xz/AUTHORS",

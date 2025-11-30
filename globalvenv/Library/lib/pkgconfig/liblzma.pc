@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: 0BSD
 # Author: Lasse Collin
 
-prefix=E:/Coding_23CSB0B30/Coding_23CSB0B30/ML, DL, NLP with Python/globalvenv/Library
+prefix=E:/Coding_23CSB0B30/ML, DL, NLP with Python/globalvenv/Library
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
