@@ -1,0 +1,3 @@
+Hello, world!
+Python—is great.
+AI: the future?

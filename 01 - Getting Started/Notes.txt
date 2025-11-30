@@ -1,0 +1,23 @@
+--> using minconda (lightweight-version of anaconda) as package manager
+--> run "code ." command to open current directory in vscode
+
+--> for creating a new project, always create a seperate environment to segregate the packages.
+    --> navigate to the directory and run "conda create -p <env-name> python=<python-version>"         // creates a new environment
+    
+    --> run "conda activate ./<env-name>" to activate the environment                                  // only one environment can be active at a time
+        --> run "conda deactivate" to deactivate the environment
+
+    --> make a file requirements.txt to list all the external packages needed to be installed for the project
+    --> run "pip install -r requirements.txt" to install all the dependencies(packages) in the activated environment.
+
+    Note : The packages required for all the projects globally is stored seperately by conda. 
+           If two or more projects use same module of same version, conda avoids redundant installation of same module for different environments.
+    
+--> Two ways to run python code :-
+    (1) Use jupyter notebook     (make .ipynb file)
+        --> run "conda install ipykernel" or include it in requirements.txt              // install kernel for the jupyter code to run
+
+    (2) Use simple python file   (make .py file)     and execute using python file_name.py
+
+--> there is a intermediate between python and C called "cython"
+    --> cython codes are first compiled using C compiler which can then be called anywhere in python file.

@@ -1,0 +1,227 @@
+[
+    {
+        "Bank Name":"The Santa Anna National Bank",
+        "City":"Santa Anna",
+        "State":"Texas",
+        "Cert":5520,
+        "Acquiring Institution":"Coleman County State Bank",
+        "Closing Date":"June 27, 2025",
+        "Fund  Sort ascending":10549
+    },
+    {
+        "Bank Name":"Pulaski Savings Bank",
+        "City":"Chicago",
+        "State":"Illinois",
+        "Cert":28611,
+        "Acquiring Institution":"Millennium Bank",
+        "Closing Date":"January 17, 2025",
+        "Fund  Sort ascending":10548
+    },
+    {
+        "Bank Name":"The First National Bank of Lindsay",
+        "City":"Lindsay",
+        "State":"Oklahoma",
+        "Cert":4134,
+        "Acquiring Institution":"First Bank & Trust Co.",
+        "Closing Date":"October 18, 2024",
+        "Fund  Sort ascending":10547
+    },
+    {
+        "Bank Name":"Republic First Bank dba Republic Bank",
+        "City":"Philadelphia",
+        "State":"Pennsylvania",
+        "Cert":27332,
+        "Acquiring Institution":"Fulton Bank, National Association",
+        "Closing Date":"April 26, 2024",
+        "Fund  Sort ascending":10546
+    },
+    {
+        "Bank Name":"Citizens Bank",
+        "City":"Sac City",
+        "State":"Iowa",
+        "Cert":8758,
+        "Acquiring Institution":"Iowa Trust & Savings Bank",
+        "Closing Date":"November 3, 2023",
+        "Fund  Sort ascending":10545
+    },
+    {
+        "Bank Name":"Heartland Tri-State Bank",
+        "City":"Elkhart",
+        "State":"Kansas",
+        "Cert":25851,
+        "Acquiring Institution":"Dream First Bank, N.A.",
+        "Closing Date":"July 28, 2023",
+        "Fund  Sort ascending":10544
+    },
+    {
+        "Bank Name":"First Republic Bank",
+        "City":"San Francisco",
+        "State":"California",
+        "Cert":59017,
+        "Acquiring Institution":"JPMorgan Chase Bank, N.A.",
+        "Closing Date":"May 1, 2023",
+        "Fund  Sort ascending":10543
+    },
+    {
+        "Bank Name":"Signature Bank",
+        "City":"New York",
+        "State":"New York",
+        "Cert":57053,
+        "Acquiring Institution":"Flagstar Bank, N.A.",
+        "Closing Date":"March 12, 2023",
+        "Fund  Sort ascending":10540
+    },
+    {
+        "Bank Name":"Silicon Valley Bank",
+        "City":"Santa Clara",
+        "State":"California",
+        "Cert":24735,
+        "Acquiring Institution":"First Citizens Bank & Trust Company",
+        "Closing Date":"March 10, 2023",
+        "Fund  Sort ascending":10539
+    },
+    {
+        "Bank Name":"Almena State Bank",
+        "City":"Almena",
+        "State":"Kansas",
+        "Cert":15426,
+        "Acquiring Institution":"Equity Bank",
+        "Closing Date":"October 23, 2020",
+        "Fund  Sort ascending":10538
+    },
+    {
+        "Bank Name":"First City Bank of Florida",
+        "City":"Fort Walton Beach",
+        "State":"Florida",
+        "Cert":16748,
+        "Acquiring Institution":"United Fidelity Bank, fsb",
+        "Closing Date":"October 16, 2020",
+        "Fund  Sort ascending":10537
+    },
+    {
+        "Bank Name":"The First State Bank",
+        "City":"Barboursville",
+        "State":"West Virginia",
+        "Cert":14361,
+        "Acquiring Institution":"MVB Bank, Inc.",
+        "Closing Date":"April 3, 2020",
+        "Fund  Sort ascending":10536
+    },
+    {
+        "Bank Name":"Ericson State Bank",
+        "City":"Ericson",
+        "State":"Nebraska",
+        "Cert":18265,
+        "Acquiring Institution":"Farmers and Merchants Bank",
+        "Closing Date":"February 14, 2020",
+        "Fund  Sort ascending":10535
+    },
+    {
+        "Bank Name":"City National Bank of New Jersey",
+        "City":"Newark",
+        "State":"New Jersey",
+        "Cert":21111,
+        "Acquiring Institution":"Industrial Bank",
+        "Closing Date":"November 1, 2019",
+        "Fund  Sort ascending":10534
+    },
+    {
+        "Bank Name":"Resolute Bank",
+        "City":"Maumee",
+        "State":"Ohio",
+        "Cert":58317,
+        "Acquiring Institution":"Buckeye State Bank",
+        "Closing Date":"October 25, 2019",
+        "Fund  Sort ascending":10533
+    },
+    {
+        "Bank Name":"Louisa Community Bank",
+        "City":"Louisa",
+        "State":"Kentucky",
+        "Cert":58112,
+        "Acquiring Institution":"Kentucky Farmers Bank Corporation",
+        "Closing Date":"October 25, 2019",
+        "Fund  Sort ascending":10532
+    },
+    {
+        "Bank Name":"The Enloe State Bank",
+        "City":"Cooper",
+        "State":"Texas",
+        "Cert":10716,
+        "Acquiring Institution":"Legend Bank, N. A.",
+        "Closing Date":"May 31, 2019",
+        "Fund  Sort ascending":10531
+    },
+    {
+        "Bank Name":"Washington Federal Bank for Savings",
+        "City":"Chicago",
+        "State":"Illinois",
+        "Cert":30570,
+        "Acquiring Institution":"Royal Savings Bank",
+        "Closing Date":"December 15, 2017",
+        "Fund  Sort ascending":10530
+    },
+    {
+        "Bank Name":"The Farmers and Merchants State Bank of Argonia",
+        "City":"Argonia",
+        "State":"Kansas",
+        "Cert":17719,
+        "Acquiring Institution":"Conway Bank",
+        "Closing Date":"October 13, 2017",
+        "Fund  Sort ascending":10529
+    },
+    {
+        "Bank Name":"Fayette County Bank",
+        "City":"Saint Elmo",
+        "State":"Illinois",
+        "Cert":1802,
+        "Acquiring Institution":"United Fidelity Bank, fsb",
+        "Closing Date":"May 26, 2017",
+        "Fund  Sort ascending":10528
+    },
+    {
+        "Bank Name":"Guaranty Bank, (d\/b\/a BestBank in Georgia & Michigan)",
+        "City":"Milwaukee",
+        "State":"Wisconsin",
+        "Cert":30003,
+        "Acquiring Institution":"First-Citizens Bank & Trust Company",
+        "Closing Date":"May 5, 2017",
+        "Fund  Sort ascending":10527
+    },
+    {
+        "Bank Name":"First NBC Bank",
+        "City":"New Orleans",
+        "State":"Louisiana",
+        "Cert":58302,
+        "Acquiring Institution":"Whitney Bank",
+        "Closing Date":"April 28, 2017",
+        "Fund  Sort ascending":10526
+    },
+    {
+        "Bank Name":"Proficio Bank",
+        "City":"Cottonwood Heights",
+        "State":"Utah",
+        "Cert":35495,
+        "Acquiring Institution":"Cache Valley Bank",
+        "Closing Date":"March 3, 2017",
+        "Fund  Sort ascending":10525
+    },
+    {
+        "Bank Name":"Seaway Bank and Trust Company",
+        "City":"Chicago",
+        "State":"Illinois",
+        "Cert":19328,
+        "Acquiring Institution":"State Bank of Texas",
+        "Closing Date":"January 27, 2017",
+        "Fund  Sort ascending":10524
+    },
+    {
+        "Bank Name":"Harvest Community Bank",
+        "City":"Pennsville",
+        "State":"New Jersey",
+        "Cert":34951,
+        "Acquiring Institution":"First-Citizens Bank & Trust Company",
+        "Closing Date":"January 13, 2017",
+        "Fund  Sort ascending":10523
+    }
+]

@@ -1,0 +1,4 @@
+1. Streamlit Web Framework
+2. Probability Distribution Function > (Log-Normal, PowerLaw, Pareto Distributions)
+3. Inferential Statistics > (ANNOVA Test)
+4. Data Analysis in Python > (Seaborn Library)

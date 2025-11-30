@@ -1,0 +1,4 @@
+This is an example of write operation
+THis is ML Course with python
+Hello Word
+This is an example of appended content

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List for {{username}}</title>
+    <link rel="stylesheet" href="../static/list_style.css">
+</head>
+<body>
+
+    <div class="task-container">
+        <!-- Top Message -->
+        <div class="header-msg">
+            {{ message }}
+        </div>
+
+        <!-- List of tasks -->
+        <form method="POST" action="/list">
+
+            {% for task in tasks.values() %}
+            <div class="task">
+                <input type="checkbox" name="{{ task }}">
+                <label>{{ task }}</label>
+            </div>
+            {% endfor %}
+
+            <!-- Add new task -->
+            <div class="add-area">
+                <button type="submit" name="action" value="remove" class="remove-btn">-</button>
+                <input type="text" name="new_task" placeholder="Add new task...">
+                <button type="submit" name="action" value="add" class="add-btn">+</button>
+                <!-- Remove selected tasks -->
+            </div>
+
+        </form>
+    </div>
+
+</body>
+</html>

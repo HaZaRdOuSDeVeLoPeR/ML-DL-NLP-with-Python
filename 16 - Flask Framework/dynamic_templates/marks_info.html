@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Marks</title>
+</head>
+<body>
+    {% for i in range(6) %}
+        {% if i == 0 %}
+        <h1>Your name: {{data[i]}}</h1>
+        {% elif i == 1 %}
+        <h2>Roll No: {{data[i]}}</h2>
+        {% elif i == 2 %}
+        <h3>English: {{data[i]}}</h3>
+        {% elif i == 3 %}
+        <h3>Hindi: {{data[i]}}</h3>
+        {% elif i == 4 %}
+        <h3>Maths: {{data[i]}}</h3>
+        {% elif i == 5 %}
+        <h3>Science: {{data[i]}}</h3>
+        {% endif %}
+    {% endfor %}
+</body>
+</html>
