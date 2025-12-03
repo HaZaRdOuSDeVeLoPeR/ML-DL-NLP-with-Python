@@ -21,3 +21,5 @@ flask
 
 # for model training, data analysis etc
 scikit-learn
+# for OLS Regression (Using Empirical Formula)
+statsmodels
