@@ -40,12 +40,8 @@ def fetch_entry(roll, name):
         select * from marks
         where roll_no = "{roll}" and name = "{name}"
     ''')
-
-    print(roll, name)
     records = cursor.fetchall()
     database.close()
-
-    print(records)
     return records
 
 # welcome the use on homeroute

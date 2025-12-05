@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Algerian Forest Fire Predictor</title>
+    <link rel="stylesheet" href="../static/input_style.css">
+</head>
+<body>
+
+  <h1>Algerian Forest Fire Prediction</h1>
+  <p>Enter the environmental and meteorological parameters below to estimate the likelihood/severity of fire conditions.</p>
+
+  <h2>Input Form</h2>
+  <form action="/predictdata" method="POST">
+
+    <div class="field">
+        <label>Temperature (°C)</label>
+        <input type="number" name="Temperature" min="0" max="45" step="0.1"
+                value="{{ request.form.get('Temperature', '') }}" required />
+        <p class="desc">Higher temperature dries vegetation faster, increasing fire risk.</p>
+        </div>
+
+        <div class="field">
+        <label>Relative Humidity (RH)</label>
+        <input type="number" name="RH" min="5" max="95" step="0.1"
+                value="{{ request.form.get('RH', '') }}" required />
+        <p class="desc">Lower humidity means drier air and more flammable conditions.</p>
+        </div>
+
+        <div class="field">
+        <label>Wind Speed (WS) km/h</label>
+        <input type="number" name="WS" min="5" max="30" step="0.1"
+                value="{{ request.form.get('WS', '') }}" required />
+        <p class="desc">Wind spreads fire faster and increases oxygen supply.</p>
+        </div>
+
+        <div class="field">
+        <label>Rain (mm)</label>
+        <input type="number" name="Rain" min="0" max="50" step="0.1"
+                value="{{ request.form.get('Rain', '') }}" required />
+        <p class="desc">Rain reduces dryness in vegetation and soil.</p>
+        </div>
+
+        <div class="field">
+        <label>FFMC Index</label>
+        <input type="number" name="FFMC" min="20" max="100" step="0.1"
+                value="{{ request.form.get('FFMC', '') }}" required />
+        <p class="desc">Fine Fuel Moisture Code — dryness of small surface fuels.</p>
+        </div>
+
+        <div class="field">
+        <label>DMC Index</label>
+        <input type="number" name="DMC" min="0" max="80" step="0.1"
+                value="{{ request.form.get('DMC', '') }}" required />
+        <p class="desc">Duff Moisture Code — moisture of decomposing material layers.</p>
+        </div>
+
+        <div class="field">
+        <label>DC Index</label>
+        <input type="number" name="DC" min="5" max="250" step="1"
+                value="{{ request.form.get('DC', '') }}" required />
+        <p class="desc">Drought Code — deep soil moisture level and long-term dryness.</p>
+        </div>
+
+        <div class="field">
+        <label>ISI Index</label>
+        <input type="number" name="ISI" min="0" max="25" step="0.1"
+                value="{{ request.form.get('ISI', '') }}" required />
+        <p class="desc">Initial Spread Index — wind-driven potential spread rate.</p>
+        </div>
+
+        <div class="field">
+        <label>BUI Index</label>
+        <input type="number" name="BUI" min="1" max="80" step="0.1"
+                value="{{ request.form.get('BUI', '') }}" required />
+        <p class="desc">Build-Up Index — amount of fuel available.</p>
+        </div>
+
+
+    <div class="field">
+        <label>Select Model</label>
+        <select name="Model" required>
+            <option value="ridge">Ridge Regression</option>
+            <option value="lasso">Lasso Regression</option>
+            <option value="elasticnet">ElasticNet Regression</option>
+        </select>
+    </div>
+
+    <button type="submit">Predict Fire Risk</button>
+  </form>
+
+  <h2>Prediction Result</h2>
+  <div id="result-box">
+        {% if result %}
+        <h3>Model Output:</h3>
+        <p id="result-text">{{ result }}</p>
+        <p class="desc">FWI (Fire Weather Index) is a numerical rating used worldwide to estimate the likelihood and intensity of forest fires. It combines factors like temperature, humidity, wind, and dryness of vegetation to produce a single score.
+A higher FWI value means conditions are more favorable for fires to start and spread quickly.</p>
+        {% endif %}
+  </div>
+
+</body>
+</html>
