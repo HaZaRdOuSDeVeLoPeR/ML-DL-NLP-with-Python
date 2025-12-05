@@ -1,0 +1,25 @@
+# superset of python which compiles code into C before running
+cython
+
+# kernel to run jupyter files
+ipykernel
+
+# for basic data processing
+numpy
+pandas
+# reading dataframe from webpages
+lxml
+html5lib
+# reading data from excel
+openpyxl
+# data visualization
+matplotlib
+seaborn
+
+# for webapps
+flask
+
+# for model training, data analysis etc
+scikit-learn
+# for OLS Regression (Using Empirical Formula)
+statsmodels
